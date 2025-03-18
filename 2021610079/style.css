@@ -1,0 +1,64 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#header a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 13px;
+    font-weight: bold;
+}
+
+#header a:hover {
+    color: #0066cc;
+}
+
+/* Top section - 750px height */
+#Atas {
+    height: 750px;
+    width: 100%;
+    background-color: green;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; /* To account for fixed header */
+}
+
+/* Bottom section - 750px height */
+#Bawah {
+    height: 750px;
+    width: 100%;
+    background-color: rebeccapurple;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer section - 500px height */
+#Footer {
+    height: 750px;
+    width: 100%;
+    background-color: blue;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Table-like styling */
+#Atas, #Bawah, #Footer {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
